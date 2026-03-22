@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.utils;
 
 import leetcode.matrix.LC1886;
 
