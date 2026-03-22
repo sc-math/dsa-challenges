@@ -1,18 +1,12 @@
 package leetcode;
 
-import leetcode.matrix.P3643_FlipSquareSubmatrixVertically;
-
-import java.util.Arrays;
+import leetcode.matrix.P1886_DetermineWheterMatrixCanBeObtainedByRotation;
 
 public class TestRunner {
     public static void main(String[] args) {
-        P3643_FlipSquareSubmatrixVertically sol = new P3643_FlipSquareSubmatrixVertically();
+        P1886_DetermineWheterMatrixCanBeObtainedByRotation sol = new P1886_DetermineWheterMatrixCanBeObtainedByRotation();
 
-        System.out.println(Arrays.deepToString(sol.reverseSubmatrix(new int[][]{
-                        {1, 2, 3, 4},
-                        {5, 6, 7, 8},
-                        {9, 10, 11, 12},
-                        {13, 14, 15, 16}},
-                1, 0, 3)));
+        System.out.println(sol.findRotation(new int[][] {{0,0},{1,0}},
+                new int[][]{{1,0}, {0,0}}));
     }
 }
