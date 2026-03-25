@@ -1,12 +1,12 @@
 package leetcode.utils;
 
+import leetcode.LC0239;
 import leetcode.matrix.LC1886;
 
 public class TestRunner {
     public static void main(String[] args) {
-        LC1886 sol = new LC1886();
+        LC0239 sol = new LC0239();
 
-        System.out.println(sol.findRotation(new int[][] {{0,0},{1,0}},
-                new int[][]{{1,0}, {0,0}}));
+        sol.maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
     }
 }
