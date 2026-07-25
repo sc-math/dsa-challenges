@@ -28,7 +28,11 @@ import java.util.Deque;
 public class LC0239 {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
+
+        // Fila que pode adicionar/remover no início e no fim.
         Deque<Integer> monoDq = new ArrayDeque<>();
+
+        // Vetor de Máximos
         int[] ans = new int[n -k +1];
 
         for(int i = 0; i < n; i++) {
