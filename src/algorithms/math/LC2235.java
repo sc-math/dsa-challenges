@@ -1,7 +1,7 @@
 package algorithms.math;
 
 /*
-2-num sum (primeiro exercício)
+2235. Add Two Integers
 
 Pattern: Math / Simulation
 
