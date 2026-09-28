@@ -66,10 +66,12 @@ LC1886.java
 | LC0739  | Daily Temperatures                                          | stack         | Monotonic Stack                              | Med.        |
 | LC1096  | Brace Expansion II                                          | hash          | Recursive Descent Parser / Cartesian Product | Hard        |
 | LC1141  | User Activity for the Past 30 Days I                        | database      | Data Range Filter                            | Easy        |
+| LC1190  | Reverse Substrings Between Each Pair of Parentheses         | stack         | Stack / String                               | Med.        |
 | LC1193  | Monthly Transactions I                                      | database      | Group By / Conditional Aggregation           | Med.        |
 | LC1464  | Maximum Product of Two Elements in an Array                 | math          | Math                                         | Easy        |
 | LC1480  | Running Sum of 1d Array                                     | array         | Prefix Sum                                   | Easy        |
 | LC1594  | Maximum Non Negative Product in a Matrix                    | dp            | Dynamic Programming                          | Med.        |
+| LC1614  | Maximum Nesting Depth of the Parentheses                    | stack         | Stack / String                               | Easy        |
 | LC1622  | Fancy Sequence                                              | math          | Linear Transformation / Modular Arithmetic   | Hard        |
 | LC1727  | Largest Submatrix With Rearrangements                       | matrix        | Matrix / Greedy / Sorting / Histogram        | Med.        |
 | LC1807  | Evaluate the Bracket Pairs of a String                      | hash          | HashMap Lookup / String Parsing              | Med.        |
